@@ -1,0 +1,22 @@
+﻿
+@model List<Plantillas.Models.Plantilla>
+
+<html>
+<head>
+    <style>
+
+    </style>
+</head>
+<body>
+    @foreach (var doc in Model)
+    {
+    <div>
+
+       @doc.CuerpoDocumento
+
+    </div>
+
+    }
+
+</body>
+</html>
